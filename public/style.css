@@ -1,0 +1,12 @@
+body {
+    margin: 0px auto;
+}
+
+table, th, td {
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.helper-txt {
+    font-size: 12px;
+    color: rgb(38, 165, 154);
+}

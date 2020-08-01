@@ -1,0 +1,65 @@
+<div class="row">
+    <div class="col s12 m12 l12  xl12">
+        <div class="card z-depth-2 hoverable">
+            <div class="card-image">
+                <img
+                    src="./img/header.jpg">
+                <span class="card-title">Listify</span>
+            </div>
+            <div class="card-content">
+               
+
+                <main>
+                    <div class="col s6">
+                        <div class="input-field col">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input type="text" id="name-input" class="validate" autocomplete="off">
+                            <label for="name-input">Name</label>
+                            <button id="add-name-btn" class="btn waves-effect waves-lightbtn-small">Add<i
+                                    class="material-icons left">add_box</i></button>
+                        </div>
+
+
+                    </div>
+                    <div class="col s6">
+                        <div class="input-field col">
+                            <i class="material-icons prefix">search</i>
+                            <input type="text" id="search-input" autocomplete="off">
+                            <label for="search-input">Search</label>
+                            <button id="search-btn" class="btn waves-effect waves-lightbtn-small">Find<i
+                                    class="material-icons left">search</i></button>
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col s12">
+                            <table id="table" class="striped centered responsive-table">
+                                <thead>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Created at</th>
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <section hidden id="update-row">
+                        <label>Update</label>
+                        <input type="text" id="update-name-input" autocomplete="off">
+                        <button id="update-row-btn" class= "btn waves-effect waves-lightbtn-small">Update</button>
+                    </section>
+
+                </main>
+                
+                <span class="helper-txt">*All items are publicy visible</span>
+            </div>
+        </div>
+    </div>
+</div>
