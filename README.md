@@ -9,9 +9,6 @@ A simple Node CRUD (Create, Read, Update, Delete) app with MySQL and AJAX.
 
 ![](listify_preview.gif)
 
-## Check out live demo on Heroku 
-## [Listify - live demo on Heroku](https://ashwinkanchana-listify.herokuapp.com/)
-
 
 ## Prerequisites💻
 
