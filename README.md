@@ -9,6 +9,9 @@ A simple Node CRUD (Create, Read, Update, Delete) app with MySQL and AJAX.
 
 ![](listify_preview.gif)
 
+## Check out live demo on Render 
+## [Listify - live demo on Render](https://listify-mw64.onrender.com/)
+
 
 ## Prerequisites💻
 
@@ -22,11 +25,11 @@ touch config.env
 ```
 
 ```
+DB_HOSTNAME=''
 DB_USERNAME=''
-DB_USERNAME=''
-DATABASE=''
+DB_PASSWORD=''
 DB_PORT=''
-HOSTNAME=''
+DATABASE=''
 ```
 
 ```javascript
